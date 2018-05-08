@@ -1,3 +1,8 @@
+/* master */
+* {
+  font-family: "comfortaaregular", Arial, Helvetica, sans-serif;
+}
+
 /* variaveis */
 * {
   font-family: "comfortaaregular", Arial, Helvetica, sans-serif;
@@ -31,3 +36,4 @@ nav ul a:hover {
   color: #dd6d49;
   border-radius: 5px;
 }
+

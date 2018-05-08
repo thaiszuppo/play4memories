@@ -1,3 +1,8 @@
+
+* { 
+  font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
+  }
+
 /* variaveis */
 $cor-laranja: #dd6d49;
 $cor-cinza:#565759;
@@ -40,9 +45,11 @@ nav {
         }   
       }
     }
+
 .btn1{
     border: 2px solid $cor-laranja;
     background: none;
     color: $cor-laranja;
     border-radius: 5px;
 }
+
