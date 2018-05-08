@@ -1,3 +1,33 @@
-* { 
-font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
+/* variaveis */
+* {
+  font-family: "comfortaaregular", Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #363D3C;
+}
+nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+}
+nav ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav ul a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn1 {
+  border: 2px solid #dd6d49;
+  background: none;
+  color: #dd6d49;
+  border-radius: 5px;
 }
