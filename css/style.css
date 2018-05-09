@@ -1,30 +1,30 @@
-/* master */
-* {
-  font-family: "comfortaaregular", Arial, Helvetica, sans-serif;
-}
-
 /* variaveis */
 * {
-  font-family: "comfortaaregular", Arial, Helvetica, sans-serif;
+  font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 nav {
   background-color: #363D3C;
 }
+
 nav ul {
   margin: 0;
   display: flex;
   justify-content: flex-end;
 }
+
 nav ul li {
   list-style: none;
   display: inline-block;
   padding: 15px;
 }
+
 nav ul a {
   color: #ffffff;
   text-decoration: none;
 }
+
 nav ul a:hover {
   text-decoration: none;
   color: #ffffff;
@@ -37,3 +37,62 @@ nav ul a:hover {
   border-radius: 5px;
 }
 
+.btn1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#servicos {
+  background-color: #DBD9D4;
+  margin-bottom: 80px;
+}
+
+#servicos h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#servicos .card {
+  margin-bottom: 60px;
+}
+
+#servicos .card a {
+  color: #565759;
+  text-decoration: none;
+}
+
+#servicos .card a img {
+  margin-top: 20px;
+}
+
+#servicos .btn-card {
+  background-color: #dd6d49;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+#col-carousel {
+  margin-left: 200px;
+}
+
+.card-text {
+  padding-right: 680px;
+}
+
+.card-img-overlay {
+  padding-top: 120px;
+}
+
+footer {
+  background-color: #dd6d49;
+}
+
+.footer-img {
+  width: 10%;
+}
+
+.footer-imgreprograma {
+  width: 30%;
+}
+/*# sourceMappingURL=style.css.map */

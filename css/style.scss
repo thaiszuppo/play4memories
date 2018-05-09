@@ -1,8 +1,3 @@
-
-* { 
-  font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
-  }
-
 /* variaveis */
 $cor-laranja: #dd6d49;
 $cor-cinza:#565759;
@@ -20,6 +15,7 @@ $fonte-titulos: 'comfortaaregular';
 
 * { 
 font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
+margin: 0;
 }
 
 nav {
@@ -51,5 +47,55 @@ nav {
     background: none;
     color: $cor-laranja;
     border-radius: 5px;
+    a{
+        color: #ffffff;
+        text-decoration: none;
+    }
 }
-
+#servicos {
+    background-color: $cor-cinza-mais-claro;
+    margin-bottom: 80px;
+    
+    h2 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .card {
+        margin-bottom: 60px;
+        
+        a{
+          color: $cor-cinza;
+          text-decoration: none;
+        img {
+            margin-top: 20px;
+         }
+       
+        }
+    }
+    .btn-card {
+        background-color: $cor-laranja;
+        color: #ffffff;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+}
+#col-carousel{
+    margin-left: 200px;
+}
+.card-text {
+    padding-right: 680px;
+}
+.card-img-overlay {
+    padding-top: 120px;
+}
+footer {
+    background-color: $cor-laranja;
+   
+}
+.footer-img {
+    width: 10%;
+}
+.footer-imgreprograma {
+    width: 30%;
+}
