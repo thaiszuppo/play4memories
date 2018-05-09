@@ -3,7 +3,6 @@
 @import 'historia';
 
 // variaveis
-
 $cor-laranja: #dd6d49;
 $cor-cinza:#565759;
 $cor-cinza-mais-escuro: #363D3C;
@@ -17,23 +16,16 @@ $cor-cinza-mais-claro: #DBD9D4;
 $fonte-padrao: 'Open Sans', sans-serif;
 $fonte-titulos: 'comfortaaregular';
 
-// extends
-
-%orange-btn {
-    border: 2px solid $cor-laranja;
-    background: none;
-    color: $cor-laranja;
-    border-radius: 5px;
-}
 
 // general config
 * { 
-    font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
+    font-family: $fonte-titulos;
     color: $cor-cinza;
 }
 
 p {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: $fonte-padrao;
+    margin: 0;
 }
 
 // index config
@@ -62,10 +54,61 @@ nav {
         }   
     }
 
-    .btn1{
-        @extend %orange-btn;
+.btn1{
+    border: 2px solid $cor-laranja;
+    background: none;
+    color: $cor-laranja;
+    border-radius: 5px;
+    a{
+        color: #ffffff;
+        text-decoration: none;
     }
 }
-
-
+#servicos {
+    background-color: $cor-cinza-mais-claro;
+    margin-bottom: 80px;
+    
+    h2 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .card {
+        margin-bottom: 60px;
+        
+        a{
+          color: $cor-cinza;
+          text-decoration: none;
+        img {
+            margin-top: 20px;
+         }
+       
+        }
+    }
+    .btn-card {
+        background-color: $cor-laranja;
+        color: #ffffff;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+}
+#col-carousel{
+    margin-left: 200px;
+}
+.card-text {
+    padding-right: 680px;
+}
+.card-img-overlay {
+    padding-top: 120px;
+}
+footer {
+    background-color: $cor-laranja;
+   
+}
+.footer-img {
+    width: 10%;
+}
+.footer-imgreprograma {
+    width: 30%;
+}
 
