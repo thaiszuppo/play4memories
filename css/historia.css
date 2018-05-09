@@ -1,0 +1,20 @@
+.retangulo-laranja {
+  border: 4px solid #dd6d49;
+  background: none;
+  color: #dd6d49;
+  border-radius: 5px;
+}
+
+.retangulo-laranja {
+  width: 535px;
+  height: 315px;
+}
+
+@media (max-width: 768px) {
+  .retangulo-laranja {
+    border: none;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=historia.css.map */
