@@ -1,4 +1,8 @@
-/* variaveis */
+// imports
+
+@import 'historia';
+
+// variaveis
 $cor-laranja: #dd6d49;
 $cor-cinza:#565759;
 $cor-cinza-mais-escuro: #363D3C;
@@ -13,33 +17,41 @@ $fonte-padrao: 'Open Sans', sans-serif;
 $fonte-titulos: 'comfortaaregular';
 
 
+// general config
 * { 
-font-family: 'comfortaaregular', Arial, Helvetica, sans-serif;
-margin: 0;
+    font-family: $fonte-titulos;
+    color: $cor-cinza;
 }
+
+p {
+    font-family: $fonte-padrao;
+    margin: 0;
+}
+
+// index config
 
 nav {
     background-color: $cor-cinza-mais-escuro;
     
-
-   ul {
-       margin:0;
-       display: flex;
-       justify-content: flex-end;
+    ul {
+        margin:0;
+        display: flex;
+        justify-content: flex-end;
+    
         li {
             list-style: none;
             display: inline-block;
             padding: 15px;
         }  
+        
         a {
             color: #ffffff;
             text-decoration: none;
-       }
+        }
         a:hover {
             text-decoration: none;
             color: #ffffff;
         }   
-      }
     }
 
 .btn1{
@@ -99,3 +111,4 @@ footer {
 .footer-imgreprograma {
     width: 30%;
 }
+
