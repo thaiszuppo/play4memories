@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["historia.scss"],"names":[],"mappings":"AAiBA;EACI;EACA;EACA,OAlBU;EAmBV;;;AAKJ;EAEI;EACA;;;AAGJ;EAEI;IACI;IACA","file":"historia.css"}
+{
+    "version": 3,
+    "mappings": "AA0BA,AATA,kBASkB,CATH;EACX,MAAM,EAAE,GAAG,CAAC,KAAK,CAhBP,OAAO;EAiBjB,UAAU,EAAE,IAAI;EAChB,KAAK,EAlBK,OAAO;EAmBjB,aAAa,EAAE,GAAG;CACrB;;AAID,AAAA,kBAAkB,CAAC;EAEf,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EANxB,AAAA,kBAAkB,CAQK;IACf,MAAM,EAAE,IAAI;IACZ,OAAO,EAAE,CAAC;GACb",
+    "sources": [
+        "historia.scss"
+    ],
+    "names": [],
+    "file": "historia.css"
+}
