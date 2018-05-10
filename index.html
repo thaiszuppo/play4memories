@@ -15,42 +15,53 @@
 
 <body>
     <header>
-        <div id="menu-hamburguer">
-            <img src="./img/icones/menu.png" alt="menu-hamburguer">
-        </div>
-        <nav id="navegacao">
-            <ul>
-                <li>
-                    <a href="./historia.html">Nossa História</a>
-                </li>
-                <li>
-                    <a href="#servicos">Serviços</a>
-                </li>
-                <li>
-                    <a href="https://play4memories.lojaintegrada.com.br">Loja</a>
-                </li>
-                <li>
-                    <a href="./parcerias.html">Parcerias</a>
-                </li>
-                <li>
-                    <a href="#form-contato">
-                        <button class="btn1">Quero Jogar</button>
-                    </a>
-                </li>
-            </ul>
+        <nav class= "navbar navbar-dark navbar-expand-lg" id="navegacao">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="./index.html" class="nav-link">Home</a>
+                            <span class="sr-only">(current)</span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./historia.html" class="nav-link">Nossa História</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://play4memories.lojaintegrada.com.br">Loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./parcerias.html">Parcerias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#form-contato">
+                                <button class="btn1">Quero Jogar</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="container-fluid col-12 col-lg-12 p-0">
             <img class="w-100" src="./img/capa.JPG" alt="Play4memories">
         </div>
     </header>
     <main>
-        <section class="container-fluid col-12 col-lg-12 p-0">
-            <img src="./img/missao.png" class="w-100" alt="missao">
-            <h1>Nossa Missão</h1>
-            <p>Queremos proporcionar a criação de memórias afetivas através do esporte, engajando a comunidade esportista amadora
-                e entusiasta, inspirando as demais gerações pelo exemplo.
-            </p>
-            <div class="retangulo-laranja"></div>
+        <section class="container-fluid col-12 col-md-8 my-5 d-flex justity-content-center">
+            <div class="row-1 d-flex flex-wrap my-lg-5 align-items-center justity-content-between">
+                <div class="col-lg-6 col-12">
+                    <img src="./img/missao.png" alt="missao" class="img-1 d-block w-100">
+                </div>
+                <div class="col-lg-6 col-12 px-lg-4 text-justify d-flex flex-wrap align-items-center retangulo-laranja">
+                    <h1 class="text-center">Nossa Missão</h1>
+                    <p class="p-missao m-lg-0 pb-lg-5">Queremos proporcionar a criação de memórias afetivas através do esporte, engajando a comunidade esportista amadora e entusiasta, inspirando as demais gerações pelo exemplo. </p>
+                </div>
+            </div>
         </section>
 
         <section id="servicos">

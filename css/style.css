@@ -3,6 +3,9 @@
   background: none;
   color: #dd6d49;
   border-radius: 5px;
+}
+
+.retangulo-laranja {
   width: 535px;
   height: 315px;
 }
@@ -13,47 +16,40 @@
     padding: 0;
   }
 }
-
-nav .btn1 {
-  border: 2px solid #dd6d49;
-  background: none;
-  color: #dd6d49;
-  border-radius: 5px;
-}
-
 * {
-  font-family: "comfortaaregular", Arial, Helvetica, sans-serif;
+  font-family: "comfortaaregular";
   color: #565759;
 }
 
 p {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
 
 nav {
   background-color: #363D3C;
 }
-
 nav ul {
   margin: 0;
   display: flex;
   justify-content: flex-end;
 }
-
 nav ul li {
   list-style: none;
   display: inline-block;
   padding: 15px;
 }
-
 nav ul a {
   color: #ffffff;
   text-decoration: none;
 }
-
 nav ul a:hover {
   text-decoration: none;
   color: #ffffff;
+}
+
+section .retangulo-laranja .p-missao {
+  line-height: 1.5rem;
 }
 
 .btn1 {
@@ -62,7 +58,6 @@ nav ul a:hover {
   color: #dd6d49;
   border-radius: 5px;
 }
-
 .btn1 a {
   color: #ffffff;
   text-decoration: none;
@@ -72,25 +67,20 @@ nav ul a:hover {
   background-color: #DBD9D4;
   margin-bottom: 80px;
 }
-
 #servicos h2 {
   text-align: center;
   padding-bottom: 15px;
 }
-
 #servicos .card {
   margin-bottom: 60px;
 }
-
 #servicos .card a {
   color: #565759;
   text-decoration: none;
 }
-
 #servicos .card a img {
   margin-top: 20px;
 }
-
 #servicos .btn-card {
   background-color: #dd6d49;
   color: #ffffff;
@@ -122,3 +112,4 @@ footer {
   width: 30%;
 }
 
+/*# sourceMappingURL=style.css.map */
