@@ -118,10 +118,13 @@ nav {
     }
 }
 
-#col-carousel {
 
-    .carousel-control-prev{
-        background-color: $cor-laranja;
+#eventos {
+    
+    h2 {
+        font-size: $font-size-title;
+        color: $cor-laranja;
+    
     }
 }
 
@@ -203,7 +206,7 @@ footer {
 
 
 #reprograma {
-    background-color: $cor-laranja-escuro;
+    background-color: $cor-cinza-mais-escuro;
 
     p {
         color: white;
@@ -214,8 +217,8 @@ footer {
 
 .scrollToTop {
     position:fixed;
-    bottom:75px;
-    right:40px;
+    bottom: 27px;
+    right: 15px;
     display:none;
     padding: 10px;
     cursor: pointer;
@@ -224,6 +227,19 @@ footer {
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 1024px) {
+    
+    #banner-loja .card-img-overlay .card-text {
+        padding: 66px 549px 45px 15px;
+        font-size: large;
+    } 
+
+    #banner-loja .card-img-overlay .btn1 {
+        margin-left: 10px;
+    }
+
 }
 
 @media (max-width:768px) {

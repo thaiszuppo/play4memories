@@ -10,10 +10,30 @@
   height: 315px;
 }
 
+main #historia .text-center h1 {
+  color: #dd6d49;
+}
+
+main #historia .text-center p {
+  font-size: x-large;
+}
+
+@media (max-width: 1024px) {
+  .retangulo-laranja {
+    height: 370px;
+  }
+}
+
 @media (max-width: 768px) {
   .retangulo-laranja {
     border: none;
     padding: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  main #historia .text-center p {
+    font-size: large;
   }
 }
 /*# sourceMappingURL=historia.css.map */

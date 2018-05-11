@@ -10,10 +10,30 @@
   height: 315px;
 }
 
+main #historia .text-center h1 {
+  color: #dd6d49;
+}
+
+main #historia .text-center p {
+  font-size: x-large;
+}
+
+@media (max-width: 1024px) {
+  .retangulo-laranja {
+    height: 370px;
+  }
+}
+
 @media (max-width: 768px) {
   .retangulo-laranja {
     border: none;
     padding: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  main #historia .text-center p {
+    font-size: large;
   }
 }
 
@@ -99,8 +119,9 @@ nav ul a:hover {
   cursor: pointer;
 }
 
-#col-carousel .carousel-control-prev {
-  background-color: #dd6d49;
+#eventos h2 {
+  font-size: 2.5rem;
+  color: #dd6d49;
 }
 
 #form-contato {
@@ -160,7 +181,7 @@ footer {
 }
 
 #reprograma {
-  background-color: #BD4C37;
+  background-color: #363D3C;
 }
 
 #reprograma p {
@@ -171,8 +192,8 @@ footer {
 
 .scrollToTop {
   position: fixed;
-  bottom: 75px;
-  right: 40px;
+  bottom: 27px;
+  right: 15px;
   display: none;
   padding: 10px;
   cursor: pointer;
@@ -181,6 +202,16 @@ footer {
 .scrollToTop .scroll-img {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  #banner-loja .card-img-overlay .card-text {
+    padding: 66px 549px 45px 15px;
+    font-size: large;
+  }
+  #banner-loja .card-img-overlay .btn1 {
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 768px) {
