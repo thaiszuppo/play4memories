@@ -10,12 +10,33 @@
   height: 315px;
 }
 
+main #historia .text-center h1 {
+  color: #dd6d49;
+}
+
+main #historia .text-center p {
+  font-size: x-large;
+}
+
+@media (max-width: 1024px) {
+  .retangulo-laranja {
+    height: 370px;
+  }
+}
+
 @media (max-width: 768px) {
   .retangulo-laranja {
     border: none;
     padding: 0;
   }
 }
+
+@media (max-width: 440px) {
+  main #historia .text-center p {
+    font-size: large;
+  }
+}
+
 * {
   font-family: "comfortaaregular";
   color: #565759;
@@ -29,26 +50,30 @@ p {
 nav {
   background-color: #363D3C;
 }
+
 nav ul {
   margin: 0;
   display: flex;
   justify-content: flex-end;
 }
+
 nav ul li {
   list-style: none;
   display: inline-block;
   padding: 15px;
 }
+
 nav ul a {
   color: #ffffff;
   text-decoration: none;
 }
+
 nav ul a:hover {
   text-decoration: none;
   color: #ffffff;
 }
 
-section .retangulo-laranja .p-missao {
+#missao .retangulo-laranja .p-missao {
   line-height: 1.5rem;
 }
 
@@ -57,59 +82,161 @@ section .retangulo-laranja .p-missao {
   background: none;
   color: #dd6d49;
   border-radius: 5px;
+  cursor: pointer;
 }
+
 .btn1 a {
   color: #ffffff;
   text-decoration: none;
 }
 
-#servicos {
-  background-color: #DBD9D4;
-  margin-bottom: 80px;
-}
 #servicos h2 {
   text-align: center;
   padding-bottom: 15px;
+  color: #dd6d49;
+  font-size: 2.5rem;
 }
+
+#servicos .retangulo-laranja {
+  height: auto;
+}
+
 #servicos .card {
   margin-bottom: 60px;
 }
+
 #servicos .card a {
   color: #565759;
   text-decoration: none;
 }
+
 #servicos .card a img {
   margin-top: 20px;
 }
-#servicos .btn-card {
-  background-color: #dd6d49;
-  color: #ffffff;
-  border-radius: 4px;
+
+#servicos .btn1 {
   padding: 10px 20px;
+  cursor: pointer;
 }
 
-#col-carousel {
-  margin-left: 200px;
+#eventos h2 {
+  font-size: 2.5rem;
+  color: #dd6d49;
 }
 
-.card-text {
-  padding-right: 680px;
+#form-contato {
+  background-color: #565759;
 }
 
-.card-img-overlay {
-  padding-top: 120px;
+#form-contato h2 {
+  font-size: 2.5rem;
+  color: #dd6d49;
+}
+
+#form-contato #mc_embed_signup_scroll .mc-field-group {
+  font-family: "Open Sans", sans-serif;
+}
+
+#form-contato #mc_embed_signup_scroll .mc-field-group label {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+#form-contato #mc_embed_signup_scroll .mc-field-group input::placeholder {
+  color: #DBD9D4;
+}
+
+#form-contato #mc_embed_signup_scroll .form-control:focus {
+  border-color: #dd6d49;
+  box-shadow: 0 0 0 0.2rem rgba(216, 65, 38, 0.337);
+}
+
+#form-contato #mc_embed_signup_scroll .btn1 {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#banner-loja #img-mobile {
+  display: none;
+}
+
+#banner-loja #img-desktop {
+  display: block;
+}
+
+#banner-loja .card-img-overlay .card-text {
+  color: white;
+  padding: 100px 800px 60px 100px;
+  font-size: x-large;
+}
+
+#banner-loja .card-img-overlay .btn1 {
+  padding: 10px 20px;
+  margin-left: 100px;
+  cursor: pointer;
 }
 
 footer {
   background-color: #dd6d49;
 }
 
-.footer-img {
-  width: 10%;
+#reprograma {
+  background-color: #363D3C;
 }
 
-.footer-imgreprograma {
-  width: 30%;
+#reprograma p {
+  color: white;
+  font-style: italic;
+  font-size: x-small;
 }
 
+.scrollToTop {
+  position: fixed;
+  bottom: 27px;
+  right: 15px;
+  display: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.scrollToTop .scroll-img {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  #banner-loja .card-img-overlay .card-text {
+    padding: 66px 549px 45px 15px;
+    font-size: large;
+  }
+  #banner-loja .card-img-overlay .btn1 {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #missao .retangulo-laranja {
+    width: 100%;
+    height: auto;
+  }
+  #banner-loja #img-mobile {
+    display: block;
+  }
+  #banner-loja #img-desktop {
+    display: none;
+  }
+  #banner-loja .card-img-overlay .card-text {
+    padding: 125px 227px 45px 10px;
+  }
+  #banner-loja .card-img-overlay .btn1 {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  #banner-loja .card-img-overlay .card-text {
+    padding: 10px 90px 10px 10px;
+    font-size: small;
+  }
+}
 /*# sourceMappingURL=style.css.map */

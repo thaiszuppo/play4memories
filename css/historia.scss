@@ -12,6 +12,7 @@ $cor-cinza-claro: #ABA7A1;
 $cor-cinza-mais-claro: #DBD9D4;
 $fonte-padrao: 'Open Sans', sans-serif;
 $fonte-titulos: 'comfortaaregular';
+$font-size-title: 2.5rem;
 
 // extends
 
@@ -30,6 +31,30 @@ $fonte-titulos: 'comfortaaregular';
     height: 315px;
 }
 
+main {
+    #historia {
+        
+        .text-center{
+
+            h1 {
+                color: $cor-laranja;
+            }
+
+            p {
+                font-size: x-large;
+            }
+        }
+    }
+}
+
+//Media
+
+@media (max-width: 1024px) {
+    .retangulo-laranja {
+        height: 370px;
+    }
+}
+
 @media (max-width:768px) {
     
     .retangulo-laranja {
@@ -37,3 +62,11 @@ $fonte-titulos: 'comfortaaregular';
         padding: 0;
     }
 }
+
+@media (max-width: 440px) {
+    main #historia .text-center p {
+        font-size: large;
+    }
+}
+
+
